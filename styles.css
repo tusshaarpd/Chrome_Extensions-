@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 640px;
+  min-width: 640px;
+  padding: 12px;
+  margin: 0;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.controls {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 5px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  border: 1px solid #999;
+  border-radius: 3px;
+  background: #f5f5f5;
+}
+
+button:hover {
+  background: #e0e0e0;
+}
+
+.status {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 6px;
+  min-height: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 5px 7px;
+  text-align: left;
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+th {
+  background: #f0f0f0;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+tr.error td {
+  color: #cc0000;
+  background-color: #fff5f5;
+}
